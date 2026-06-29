@@ -1,0 +1,28 @@
+.form {
+  max-width: 28rem;
+  margin: 2.5rem auto 0;
+}
+
+.form > * + * {
+  margin-top: 1rem;
+}
+
+.heading {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.submitButton {
+  background-color: #4f46e5;
+  color: #ffffff;
+  width: 100%;
+  padding: 0.5rem 0;
+  border-radius: 0.25rem;
+  border: none;
+  cursor: pointer;
+}
+
+.submitButton:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

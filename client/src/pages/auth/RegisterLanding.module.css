@@ -1,0 +1,79 @@
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f3f4f6;
+  padding: 1.5rem;
+}
+
+.title {
+  font-size: 2.25rem;
+  font-weight: 800;
+  margin-bottom: 3rem;
+  color: #1f2937;
+}
+
+.cardRow {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  width: 100%;
+  max-width: 64rem;
+}
+
+@media (min-width: 768px) {
+  .cardRow {
+    flex-direction: row;
+  }
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 2rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  border-left: 4px solid #7f1d1d;
+}
+
+.cardHeading {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 1.5rem;
+}
+
+.roleSelect {
+  margin-bottom: 1.5rem;
+  width: 100%;
+  border-radius: 0.375rem;
+  padding: 0.75rem 1rem;
+  border: 1px solid #d1d5db;
+  background-color: #f9fafb;
+  color: #374151;
+}
+
+.roleSelect:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #3b82f6;
+}
+
+.actionButton {
+  width: 100%;
+  background-color: #7f1d1d;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 0.75rem 0;
+  border-radius: 0.375rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.actionButton:hover {
+  background-color: #650f0f;
+}

@@ -1,0 +1,86 @@
+.errorMessage {
+  color: #dc2626;
+}
+
+.container {
+  padding: 1.5rem;
+  max-width: 48rem;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-radius: 0.25rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.backButton {
+  margin-bottom: 1rem;
+  color: #4f46e5;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.backButton:hover {
+  text-decoration: underline;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .layout {
+    flex-direction: row;
+  }
+}
+
+.imageColumn {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .imageColumn {
+    width: 33.3333%;
+  }
+}
+
+.productImage {
+  border-radius: 0.25rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+
+.noImagePlaceholder {
+  width: 100%;
+  height: 12rem;
+  background-color: #e5e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #6b7280;
+}
+
+.infoColumn {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .infoColumn {
+    width: 66.6667%;
+  }
+}
+
+.productTitle {
+  font-size: 1.875rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.detailLine {
+  margin-bottom: 0.5rem;
+  color: #374151;
+}

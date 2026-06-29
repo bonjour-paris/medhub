@@ -1,0 +1,34 @@
+.formCard {
+  max-width: 28rem;
+  margin: 0 auto;
+  padding: 1.5rem;
+  background-color: #ffffff;
+  border-radius: 0.25rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.submitButton {
+  margin-top: 1rem;
+  width: 100%;
+  background-color: #4f46e5;
+  color: #ffffff;
+  padding: 0.5rem 0;
+  border-radius: 0.25rem;
+  border: none;
+  cursor: pointer;
+}
+
+.submitButton:hover {
+  background-color: #4338ca;
+}
+
+.submitButton:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
